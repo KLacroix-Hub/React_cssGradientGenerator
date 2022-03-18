@@ -2,7 +2,10 @@ import React from 'react'
 
 function ColorPicker() {
   return (
-        <input type='color'></input>
+      <form>
+          <input type="number" ></input>
+          <input type='color'></input>
+      </form>
     )
 }
 
